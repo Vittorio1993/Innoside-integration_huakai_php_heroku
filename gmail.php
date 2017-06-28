@@ -39,7 +39,7 @@ $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 
 //Whether to use SMTP authentication
-$mail->SMTPAuth = true;
+$mail->SMTPAuth = flase;
 
 //Username to use for SMTP authentication - use full email address for gmail
 $mail->Username = "zhanghuakai1234@gmail.com";
