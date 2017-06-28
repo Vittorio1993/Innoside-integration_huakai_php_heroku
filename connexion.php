@@ -36,7 +36,7 @@
 		session_start();
 		if(isset($_POST['email']) and isset($_POST['mot'])){
 			require("function.php");
-			$session=connectBD("root","root");	
+			$session=connectBD("zx3ektbq82xni4sp","nnam7mfzvw59p6rt");	
 				$_SESSION['EMAIL']=$_POST['email'];
 				$password=$_POST['mot'];
 				$veriflogin= controlelogin($session,$_SESSION['EMAIL']);

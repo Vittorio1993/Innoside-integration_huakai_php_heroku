@@ -50,7 +50,7 @@
 	</body>
 	<?php
 		require("function.php");
-		$session=connectBD("root","root");
+		$session=connectBD("zx3ektbq82xni4sp","nnam7mfzvw59p6rt");
 		if(isset($_POST['email'])){
 			if(!controlelogin($session,$_POST['email'])){
 				if($_POST['motdepasse']==$_POST['confirmot']){

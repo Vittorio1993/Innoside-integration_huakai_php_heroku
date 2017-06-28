@@ -1,7 +1,7 @@
 <?php 
 	session_start();
 	require("function.php");
-	$session=connectBD("root","root");
+	$session=connectBD("zx3ektbq82xni4sp","nnam7mfzvw59p6rt");
 ?>
 <html lang="fr">
 	<head>

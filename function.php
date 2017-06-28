@@ -4,8 +4,8 @@
 			
 			function connectBD($login,$pwd)
 			{
-				$serveur='localhost';
-				$nom_bd='projet_innoside';
+				$serveur='e7qyahb3d90mletd.chr7pe7iynqr.eu-west-1.rds.amazonaws.com';
+				$nom_bd='wuyrd79zbxwlyhd6';
 				$con=mysqli_connect($serveur,$login,$pwd);
 
 				if(!$con)

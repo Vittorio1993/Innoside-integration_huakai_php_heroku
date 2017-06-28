@@ -136,7 +136,7 @@
 				<div>
 				<?php
 					require("function.php");
-					$session=connectBD("root","root");
+					$session=connectBD("zx3ektbq82xni4sp","nnam7mfzvw59p6rt");
 					echo '<form method="POST" action="scanne.php">';
 					echo '<input type="text" name="nom" class="form-control text-center" value="'.$_SESSION['NOM'].'">';
 					echo '<input type="text" name="prenom" class="form-control text-center" value="'.$_SESSION['PRENOM'].'">';

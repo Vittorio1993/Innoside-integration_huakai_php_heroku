@@ -37,7 +37,7 @@
 		</div>
 		<?php
 			require("function.php");
-			$session=connectBD("root","root");
+			$session=connectBD("zx3ektbq82xni4sp","nnam7mfzvw59p6rt");
 			
 			if (isset($_POST['oldpassword'])){
 				if($_SESSION['mot']==$_POST['oldpassword']){
