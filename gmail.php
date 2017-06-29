@@ -27,7 +27,7 @@ $mail->SMTPDebug = 3;
 $mail->Debugoutput = 'html';
 
 //Set the hostname of the mail server
-$mail->Host = '173.194.79.108';
+$mail->Host = 'smtp.gmail.com';
 // use
 // $mail->Host = gethostbyname('smtp.gmail.com');
 // if your network does not support SMTP over IPv6
