@@ -27,19 +27,19 @@ $mail->SMTPDebug = 2;
 $mail->Debugoutput = 'html';
 
 //Set the hostname of the mail server
-$mail->Host = gethostbyname('smtp.gmail.com');
+$mail->Host = 'relay-hosting.secureserver.net';
 // use
 // $mail->Host = gethostbyname('smtp.gmail.com');
 // if your network does not support SMTP over IPv6
 
 //Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
-$mail->Port = 587;
+$mail->Port = 25;
 
 //Set the encryption system to use - ssl (deprecated) or tls
-$mail->SMTPSecure = 'ssl';
+$mail->SMTPSecure = false;
 
 //Whether to use SMTP authentication
-$mail->SMTPAuth = true;
+$mail->SMTPAuth = false;
 
 //Username to use for SMTP authentication - use full email address for gmail
 $mail->Username = "zhanghuakai1234@gmail.com";
