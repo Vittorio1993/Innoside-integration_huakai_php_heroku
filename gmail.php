@@ -73,7 +73,7 @@ $mail->AltBody = 'This is a plain-text message body';
 if (!$mail->send()) {
     echo "Mailer Error: " . $mail->ErrorInfo;
 } else {
-    echo "Message sent!";
+    echo "<p align=center>Message sent!</p>";
 }
 
 }
