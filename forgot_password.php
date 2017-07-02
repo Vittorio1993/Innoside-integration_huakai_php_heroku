@@ -47,7 +47,6 @@
 				}
 			require('gmail.php');
 		 	sentmail($_POST['email']);
-		 	echo "un email a envoyé.";
 		 	echo "<script language='javascript' type='text/javascript'>" ;
 			echo "window.location.href='new_password.php'";
 			echo "</script>";
